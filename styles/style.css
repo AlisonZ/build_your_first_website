@@ -1,0 +1,85 @@
+
+li {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+    font-family: Arial;
+    border-style: solid;
+    border-width: thick;
+    border-color: #B56357;
+    background-color: #B56357;
+    padding-bottom: 0;
+    color:  #EAE3EA;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+nav li{
+    display: inline;
+}
+
+main {
+    background-color: #EAE3EA;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+main.index img {
+    /*border-style: solid;
+    border-color: thick;
+    border-color: black;*/
+    height: 600px;
+    width: 400px;
+    /*float: right;*/
+}
+
+
+main.index li {
+    padding: 50px;
+}
+
+
+a:hover {
+    color: #B4DBC0;
+}
+
+a {
+    color: #A7B3A5;
+}
+
+footer {
+    background-color: #B56357;
+    color:  #EAE3EA;
+    font-family: Arial;
+
+}
+
+footer li {
+    display: inline
+}
+
+main.content img {
+    float: left
+}
+
+
+/*this isn't working!!*/
+/*section.book_details li {
+    padding-left: 100px
+}*/
+
+section.book_description {
+    float: left;
+}
+
+article.reviews {
+    float: left;
+}
+
+article.reviews li {
+    margin-left: -40px;
+}
